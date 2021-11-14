@@ -1,0 +1,17 @@
+<link href="https://fonts.googleapis.com/css2?family=Stylish&display=swap" rel="stylesheet">
+
+
+<h3 style="font-family: 'Stylish', sans-serif; text-align: center;font-size: larger;"> How to make Coffee? </h3>
+<br>
+<br>
+<h2 style="font-family: 'Stylish', sans-serif;text-align: center;">~~ How to make Coffee as in Todo Table ~~</h2>
+<table border="2px" style="margin-left: auto; margin-right: auto; font-family: 'Stylish', sans-serif;">
+  <tr>
+    <th> Step Number</th>
+    <th> Process </th>
+  </tr>
+  <tr *ngFor="let item of todo">
+    <td> {{item.step}}</td>
+    <td> {{item.process}} </td>
+  </tr>
+</table>

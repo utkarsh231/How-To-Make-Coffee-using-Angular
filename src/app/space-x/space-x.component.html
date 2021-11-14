@@ -1,0 +1,27 @@
+<link href="https://fonts.googleapis.com/css2?family=Stylish&display=swap" rel="stylesheet">
+
+<h2 style="font-family: 'Stylish', sans-serif; text-align: center;font-size: larger;">SPACEX API</h2>
+
+<p>
+  {{data|json}}
+</p>
+
+<br>
+<br>
+<h2 style="font-family: 'Stylish', sans-serif;text-align: center;">~~  Table ~~</h2>
+<table border="2px" style="margin-left: auto; margin-right: auto; font-family: 'Stylish', sans-serif;">
+  <tr>
+    <th> Mission Name </th>
+    <th> Mission Id </th>
+    <th> Manufacturers</th>
+    <th>Wikipedia</th>
+    <th>Website </th>
+  </tr>
+  <tr *ngFor="let item of spacex">
+    <td> {{item.mission_name}}</td>
+    <td> {{item.mission_id}} </td>
+    <td> {{item.manufacturers}} </td>
+    <td> {{item.wikipedia}} </td>
+    <td> {{item.website}} </td>
+  </tr>
+</table>
