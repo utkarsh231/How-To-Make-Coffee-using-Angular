@@ -1,27 +1,37 @@
-# Todo
+# Lets-Make-Coffee-WebApp-using-Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.7.
+# Project by-
+Sikkim Manipal Institute of Technology - Scripting Lab Week 9 Assignment
 
-## Development server
+Submitted by - Utkarsh Prakash Srivastava
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Reg No. : 201900232
 
-## Code scaffolding
+![smit](https://user-images.githubusercontent.com/57147530/137695802-3c030782-cbd8-47e0-8f6b-b34b540b06fb.png)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+# Technologies Used -
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Angular JS
+- HTML
+- CSS
+- Bootstrap
+- Typescript
+- JavaScript
 
-## Running unit tests
+# Screenshots
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Initial Look
+![1](https://user-images.githubusercontent.com/57147530/141677630-b7da43a6-112e-4b10-9600-296aa0c34700.png)
 
-## Running end-to-end tests
+## Todo List (localhost:4200/list)
+![2](https://user-images.githubusercontent.com/57147530/141677642-74a0ad26-156a-498a-bad1-a95396cf4dad.png)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Todo Details (localhost:4200/details)
+![3](https://user-images.githubusercontent.com/57147530/141677650-ecb76694-ea2d-4a36-9452-c620209eaa6f.png)
 
-## Further help
+## SpaceX API (localhost:4200/spacex-api)
+![4](https://user-images.githubusercontent.com/57147530/141677666-3678c876-34cd-41d9-aa11-77f32d681b77.png)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## In table form
+![5](https://user-images.githubusercontent.com/57147530/141677673-3f028954-31f7-43fe-9e3d-7dff42b42724.png)
